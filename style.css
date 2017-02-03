@@ -229,7 +229,8 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    margin: 10px 0
+    margin: 10px ;
+
 }
 
 .w3-wide {
@@ -237,7 +238,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    font-weight: inherit
+    font-weight: inherit;
+
 }
 
 hr {
@@ -254,6 +256,19 @@ a {
     color: inherit
 }
 
+.img{
+  opacity: 0;
+
+}
+.img2{
+  opacity: .65;
+  position: fixed;
+
+}
+.img3{
+    opacity: .65;
+
+}
 .w3-image {
     max-width: 100%;
     height: auto
@@ -1219,7 +1234,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate, input[type=radio].w3-radio:
 }
 
 .w3-border-bottom {
-    border-bottom: 1px solid #ccc!important
+    border-bottom: 1px solid #000!important
 }
 
 .w3-border-left {
